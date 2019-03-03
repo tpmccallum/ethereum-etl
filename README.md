@@ -7,7 +7,7 @@
 Install Ethereum ETL:
 
 ```bash
-pip install ethereum-etl
+pip3 install ethereum-etl
 ```
 
 Export blocks and transactions ([Schema](#blockscsv), [Reference](#export_blocks_and_transactions)):
@@ -47,8 +47,8 @@ Export traces ([Schema](#tracescsv), [Reference](#export_traces)):
 
 For the latest version, check out the repo and call 
 ```bash
-> pip install -e . 
-> python ethereumetl.py
+> pip3 install -e . 
+> python3 ethereumetl.py
 ```
 
 [LIMITATIONS](#limitations)
@@ -237,7 +237,7 @@ and token details; for those you need to wait until the full sync).
 1. Install Ethereum ETL:
 
     ```bash
-    > pip install ethereum-etl
+    > pip3 install ethereum-etl
     ```
 
 1. Export all:
